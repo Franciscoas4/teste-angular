@@ -1,0 +1,10 @@
+<div class="card text-dark bg-light mb-3 mx-auto" style="max-width: 18rem;">
+    <div class="card-header">Fibonacci</div>
+    <div class="card-body">
+      <h5 class="card-title" for="">Valor: {{valor}}</h5>
+      <textarea cols="33" rows="3" [value]="numerosArr"></textarea>
+      <button type="button" class="btn btn-primary" (click)="calcFibonacci()">Adicionar</button>
+      <button type="button" class="btn btn-danger" (click)="reset()">Resetar</button>
+</div>
+
+
